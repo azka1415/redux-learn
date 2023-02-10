@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.action-button {
+		@apply bg-gray-200 p-2 rounded-lg hover:bg-gray-300 active:translate-y-1;
+	}
+}
